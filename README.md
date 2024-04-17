@@ -28,7 +28,7 @@ The data set contains the following diseases:
 - Vascular lesion.
 
 ## Conclusions
-The goal is to build the CNN model which will detects the type of cancer. The given input data has 9 different classes. Initialy a model has been built using given data & its observed that the accuracy is low & model is Overfitting. Its also oberved that some of the classes of having very less images & some classes have more images. Augmentation method is added to generate more images for each classes & the model is built again using augmented data.
+The goal is to build the CNN model which will detects the type of cancer. The given input data has 9 different classes. Initialy a model has been built using training data & its observed that the accuracy is low & model is Overfitting. Its also oberved that some of the classes of having very less images & some classes have more images. Augmentation method is added to generate more images for each classes & the model is built again using augmented data. 700 sample images has been added for each claees for making model accurate. Finally the model has been verified with the test set provided & the model is able to detect the type of cancer correctly.
 
 
 
